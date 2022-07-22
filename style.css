@@ -231,3 +231,240 @@ span {
     font-weight: normal;
 }
 
+/* header and footer (mobile) */
+
+@media only screen and (max-width:400px) {
+
+    .header {
+        display: block;
+        align-items: center;
+        padding: 20px 10px 26px 50px;
+        width: 84%;
+        background: #2E948A;
+        box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+        
+    }
+    
+    .header img {
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .header .nav {
+        list-style: none;
+    }
+    
+    .header .nav  li, a {
+        padding: 0px 10px;
+        color: white;
+        text-decoration: none;
+        
+        
+    
+    
+        
+    }
+    
+    .footer {
+        background-color: #2e948a;
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 10px 26px 50px;
+        width: 84%;
+    }
+    
+    .footer img {
+        max-width: 250px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .footer .links {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+    }
+    
+    .footer a {
+        display: block;
+        padding: 5px;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 700;  
+    }
+    
+    .footer-button {
+        margin: 10px;
+        border: 1px solid #ffffff;
+        border-radius: 62px;
+        max-width: 300px;
+        text-align: center;
+    }
+    
+    .footer-button a {
+        padding: 10px 10px;
+        color: #ffffff; 
+        font-weight: normal;
+    }
+
+    /* page content */
+
+    section {
+        padding: 0px 12px 0px 30px;
+    
+    }
+    
+    .class-banner{
+    
+        display: block;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .class-banner img {
+        margin-top: 80px;
+        margin-left: 40px;
+    }
+    
+    .class-banner h1 {
+        color: #FF4081;
+        font-size: 40px;
+    
+    }
+    
+    .comecar {
+        display: flex;
+        justify-content: center;
+    }
+        
+    .class-banner img {
+        width: 200px;
+    }
+    
+    .class-2 {
+        background-color: #F7F7F7;;
+        display: block;
+    }
+    
+    h2 {
+        color: #009688;
+        padding: 40px 0px 50px 30px;
+    }
+    
+    #h2-2 {
+        padding: 40px 0px 50px 0px;
+    }
+    
+    .feedback {
+        display: block;
+       
+    }
+
+    .feedback div {
+        margin-bottom: 30px;
+    }
+    
+    
+    
+    .feedback div img {
+        width: 90px;
+        height: 90px;
+        margin-right: 20px;
+    }
+    
+    .conteudos {
+        display: block; 
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+ 
+    .mais-conteudos .conteudos div {
+        padding-right: 30px;
+        margin-bottom: 70px;
+    }
+    
+
+}
+
+/* content responsiveness (tablet) */
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+    section {
+        padding: 0px 12px 0px 30px;
+    
+    }
+    
+    .class-banner{
+    
+        display: flex;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .class-banner img {
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+    
+    .class-banner h1 {
+        color: #FF4081;
+        font-size: 40px;
+    
+    }
+
+    .class-2 div img {
+        
+       padding-left: 250px; 
+    }
+    .class-2 div p {
+        
+        padding-left: 220px; 
+     }
+    
+    .comecar {
+        display: flex;
+        justify-content: center;
+    }
+        
+    .class-banner img {
+        width: 200px;
+    }
+    
+    .class-2 {
+        background-color: #F7F7F7;;
+        display: block;
+    }
+    
+    h2 {
+        color: #009688;
+        padding: 40px 0px 50px 30px;
+    }
+    
+    #h2-2 {
+        padding: 40px 0px 50px 0px;
+    }
+    
+    .feedback {
+        display: block;
+    }
+    
+    
+    
+    .feedback div img {
+        width: 90px;
+        height: 90px;
+        margin-right: 20px;
+    }
+    
+    .conteudos {
+        display: block; 
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+ 
+    .mais-conteudos .conteudos div {
+        padding-right: 30px;
+        margin-bottom: 70px;
+    } 
+  
+}
