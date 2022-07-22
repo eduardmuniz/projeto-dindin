@@ -115,3 +115,113 @@ span {
 .section2 .grid div {
     max-width: 350px;
 }
+
+/* header and footer (mobile) */
+
+@media only screen and (max-width:400px) {
+
+    .header {
+        display: block;
+        align-items: center;
+        padding: 20px 10px 26px 50px;
+        width: 84%;
+        background: #2E948A;
+        box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+        
+    }
+    
+    .header img {
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .header .nav {
+        list-style: none;
+    }
+    
+    .header .nav  li, a {
+        padding: 0px 10px;
+        color: white;
+        text-decoration: none;
+        
+        
+    
+    
+        
+    }
+    
+    .footer {
+        background-color: #2e948a;
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 10px 26px 50px;
+        width: 84%;
+    }
+    
+    .footer img {
+        max-width: 250px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .footer .links {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+    }
+    
+    .footer a {
+        display: block;
+        padding: 5px;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 700;  
+    }
+    
+    .footer-button {
+        margin: 10px;
+        border: 1px solid #ffffff;
+        border-radius: 62px;
+        max-width: 300px;
+        text-align: center;
+    }
+    
+    .footer-button a {
+        padding: 10px 10px;
+        color: #ffffff; 
+        font-weight: normal;
+    }
+
+    /* page content*/
+
+    .section1 {
+        display: block;
+        padding: 40px 30px 40px 30px;
+    }
+
+    .section1 h1 {
+        margin-bottom: 20px;
+    }
+
+    .section1 img {
+        width: 200px;
+        padding-top: 30px;
+    }
+
+    .section2 {
+        padding: 20px 0px 20px 30px;
+    }
+
+    .grid {
+        display: block;
+    }
+}
+
+/* content responsiveness (tablet) */
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+
+    .section2 {
+        padding: 40px 0px 40px 50px;
+    }
+}
