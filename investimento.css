@@ -123,14 +123,15 @@ hr {
     
 }
 
-/*mobile*/
+/* header and footer (mobile) */
+
 @media only screen and (max-width:400px) {
 
 .header {
     display: block;
     align-items: center;
     padding: 20px 10px 26px 50px;
-    width: 90%;
+    width: 84%;
     background: #2E948A;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
     
@@ -155,52 +156,55 @@ hr {
 
     
 }
-footer {
-    width: 90%;
-    background-color: #2E948A;
+
+.footer {
+    background-color: #2e948a;
     display: block;
-    
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px 26px 50px;
+    width: 84%;
 }
 
-footer .links a {
-   
+.footer img {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 20px;
 }
 
-
-footer .links ul li a {
-    font-weight: 400;
+.footer .links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
 }
 
-footer ul {
-
-    list-style: none;
-    font-weight: 100;
+.footer a {
     display: block;
-    
-    
-    
-}
-
-footer .buttons ul li {
-    color: white;
-    border:1px solid white;
-    border-radius: 40px;
+    padding: 5px;
     text-decoration: none;
-    cursor: pointer;
-    padding: 10px 10px 10px 10px;
-    
-    
-    
+    color: #ffffff;
+    font-weight: 700;  
 }
 
-footer .buttons ul li a, .links {
-    font-weight: 400;
-    
-    
+.footer-button {
+    margin: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 62px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.footer-button a {
+    padding: 10px 10px;
+    color: #ffffff; 
+    font-weight: normal;
 }
 
 /*page content*/
 
+main {
+    max-width: 390px;
+}
 section {
     padding: 40px 10px 40px 10px;
 }
@@ -210,50 +214,33 @@ section {
     justify-content: space-evenly;
 }
 
-
-h1 {
-    color: #ff4081;
-    font-size: 40px;
-    padding-bottom: 20px;
-
-}
-
-#inicio div {
-    max-width: 400px;
-}
-
-span {
-    font-weight: 300;  
-}
-
-.videos {
-    background-color: #f6f6f6;
-}
-
  .aulas {
     display: block;
     justify-content: space-evenly;
     padding: 40px 0px 40px 0px;
 }
-
-iframe {
-    width: 350px;
-    height: 200px;
 }
 
-h2 {
-    color: #ff4081;
-}
 
-p {
-    max-width: 400px;
-    font-weight: 300;
-}
-
-hr {
-    height: 3px;
-    background-color: #c4c4c4;
-    border: none;
+/* content responsiveness (tablet) */
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+   
     
-}
+    #inicio {
+        display: block;
+        justify-content: center;
+    }
+
+    #inicio div, img {
+        padding-left: 100px;
+        padding-bottom: 50px;
+    }
+
+    
+    
+     .aulas {
+        display: block;
+        justify-content: center;
+        padding: 20px 0px 40px 100px;
+    }
 }
