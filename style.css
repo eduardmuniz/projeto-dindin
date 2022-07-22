@@ -87,6 +87,10 @@ section {
     
 }
 
+.comecar a {
+    margin-left: 80px;
+}
+
 
 
 .class-banner img {
@@ -337,6 +341,10 @@ span {
         display: flex;
         justify-content: center;
     }
+
+    .comecar a {
+        margin-left: 0px;
+    }
         
     .class-banner img {
         width: 200px;
@@ -424,6 +432,10 @@ span {
     .comecar {
         display: flex;
         justify-content: center;
+    }
+
+    .comecar a {
+        margin-left: 0px;
     }
         
     .class-banner img {
