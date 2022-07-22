@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 103px 26px 82px;
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);    
+}
+
+.header .nav {
+    display: flex;
+    list-style: none;
+}
+
+.header .nav  li, a {
+    padding: 0px 10px;
+    color: white;
+    text-decoration: none;   
+}
+
+footer {
+    padding: 20px 103px 26px 82px;
+    background-color: #2E948A;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+footer .links ul li a {
+    font-weight: 400;
+}
+
+footer ul {
+
+    list-style: none;
+    font-weight: 100;
+    
+    
+    
+}
+
+footer .buttons ul li {
+    color: white;
+    border:1px solid white;
+    border-radius: 40px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 30px 10px 30px;
+    
+    
+    
+}
+
+footer .buttons ul li a, .links {
+    font-weight: 400;
+    
+    
+}
+
+/*page content*/
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px 50px 100px;
+}
+
+h1 {
+    color: #FF4081;
+    font-size: 42px;
+    padding-bottom: 30px;
+}
+
+nav form div label{
+    font-weight: 400;
+}
+
+nav form div input {
+    border: none;
+    font-weight: 500;
+}
+
+
+.campo-nome {
+    border: solid #686868;
+    border-width: 1px;
+    border-radius: 7px;
+    padding: 4px 0px 4px 4px;
+    margin-bottom: 8px;
+}
+#campo1 {
+    padding: 4px 200px 4px 4px;
+}
+
+.campo-email {
+    border: solid #686868;
+    border-width: 1px;
+    border-radius: 7px;
+    padding: 4px 0px 4px 4px;
+    margin-bottom: 8px;
+}
+#campo2 {
+    padding: 4px 200px 4px 4px;
+}
+
+.campo-msg {
+    border: solid #686868;
+    border-width: 1px;
+    border-radius: 7px;
+    padding: 4px 0px 0px 4px;
+    margin-bottom: 8px;
+}
+#campo3 {
+    padding: 4px 240px 150px 4px;
+}
+
+#submit {
+    color: white;
+    background-color: #FF4081;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 30px 8px 30px;
+    cursor: pointer;
+    
+}
+
+
