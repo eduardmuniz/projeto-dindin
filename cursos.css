@@ -85,46 +85,35 @@ p {
     padding: 7px 30px 7px 30px;
 }
 
-footer {
-    padding: 20px 103px 26px 82px;
-    background-color: #2E948A;
+.footer {
+    background-color: #2e948a;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
 }
 
-footer .links ul li a {
-    font-weight: 400;
+.footer img {
+    max-width: 250px;
+    height: auto;
 }
 
-footer ul {
-
-    list-style: none;
-    font-weight: 100;
-    
-    
-    
-}
-
-footer .buttons ul li {
-    color: white;
-    border:1px solid white;
-    border-radius: 40px;
+.footer a {
+    display: block;
+    padding: 5px;
     text-decoration: none;
-    cursor: pointer;
-    padding: 10px 30px 10px 30px;
-    
-    
-    
+    color: #ffffff;
+    font-weight: 700;  
 }
 
-footer .buttons ul li a, .links {
-    font-weight: 400;
-    
-    
+.footer-button {
+    margin: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 62px;
 }
 
-
-
-
-
+.footer-button a {
+    padding: 10px 20px;
+    color: #ffffff; 
+    font-weight: normal;
+}
